@@ -2,7 +2,7 @@ document.getElementById('add-money-btn').addEventListener('click', function(even
    event.preventDefault();
   const addMoneyInput = document.getElementById('add-money-input').value;
   const pinInput = document.getElementById('pin-number').value;
-  if(pinInput === '1234'){
+  if(pinInput === '4321'){
     const currentAmount = document.getElementById('current-amount').innerText;
     const addMoneyNumber = parseFloat(addMoneyInput);
     const balanceNumber = parseFloat(currentAmount);
