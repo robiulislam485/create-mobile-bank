@@ -10,7 +10,7 @@ document.getElementById('add-money-btn').addEventListener('click', function(even
     document.getElementById('current-amount').innerText = newBalance;
   }
   else{
-    alert('wrong pin')
+    alert('Wrong pin!');
   }
  
-})
+});
